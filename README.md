@@ -89,16 +89,3 @@ To ensure the model is explainable for business stakeholders, we deployed **SHAP
    mlflow ui
    ```
    Open `http://localhost:5000` in your browser to inspect the hyperparameter runs and artifact logs.
-"""
-
-print("=== SUGGESTED GITHUB REPOSITORY METADATA ===")
-print(f"Project Name: {PROJECT_NAME}")
-print(f"Project Description: {PROJECT_DESCRIPTION}\n")
-print("=== HIGHLIGHTED SKILLS TO PUT ON RESUME/LINKEDIN ===")
-for skill in HIGHLIGHTED_SKILLS:
-    print(f"- {skill}")
-
-# Save the README.md content directly to a file for easy download/push
-with open("README.md", "w") as f:
-    f.write(README_CONTENT)
-print("\n[INFO] 'README.md' has been generated in your workspace directory!")
