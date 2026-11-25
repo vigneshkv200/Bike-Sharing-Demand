@@ -1,14 +1,4 @@
-HIGHLIGHTED_SKILLS = [
-    "End-to-End Machine Learning Engineering",
-    "Pipeline Design & Feature Engineering (Cyclic Encoding, One-Hot Encoding)",
-    "Experiment Tracking & MLOps (MLflow)",
-    "Ensemble & Gradient Boosting Architectures (CatBoost, XGBoost, LightGBM, Random Forest)",
-    "Hyperparameter Optimization (RandomizedSearchCV)",
-    "Model Interpretability (SHAP, Feature Importance)",
-    "Robust Evaluation (Stratified K-Fold CV, Log-Transform Targets)"
-]
-
- Bike Sharing Demand Predictive Pipeline & MLOps Experimentation
+# Bike Sharing Demand Predictive Pipeline & MLOps Experimentation
 
 [![MLflow](https://img.shields.io/badge/MLops-MLflow-blue.svg)](https://mlflow.org/)
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
